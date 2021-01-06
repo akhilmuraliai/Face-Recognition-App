@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img src="./static/images/circle-cropped.png" alt="Logo" width="80" height="80">
+    <img src="./images/circle-cropped.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Face Recognition and Gender Prediction</h3>
@@ -32,7 +32,7 @@
 
 ---
 
-<img src="./images/web-app.png" alt="Sample" width="140" height="80">
+<img src="./images/web-app.png" alt="Sample" width="450" height="250">
 
 A web application that can recognize the gender and detect the face part from an image.
 
@@ -86,8 +86,8 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ---
 
-<img src="./images/index-page.png" alt="Sample" width="140" height="80">
-<img src="./images/web-app.png" alt="Sample" width="140" height="80">
+<img src="./images/index-page.png" alt="Sample" width="450" height="250">
+<img src="./images/web-app.png" alt="Sample" width="450" height="250">
 
 ## Contact
 
@@ -98,6 +98,8 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ---
 
 -   [UI Color](https://uicolorpicker.com/) by [LOC](https://web.learncodeonline.in/)
+-   [User Images](https://randomuser.me/photos)
+-   [Logo by Freepik](https://www.freepik.com/)
 -   [Wireframe](https://balsamiq.com/)
 -   [Free AI Space](http://freeai.space/face-recognition)
 -   [Medium Blog](https://medium.com/@freeai.space/build-face-recognition-app-in-flask-900cdd7632ed)
