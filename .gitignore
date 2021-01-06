@@ -1,0 +1,5 @@
+/.ipynb_checkpoints
+/__pycache__
+/IPYNB-Notebooks/image-data
+/app/__pycache__
+*.npz

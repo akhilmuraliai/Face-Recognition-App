@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <title>Face Recognition Web App</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon" />
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">The Face App</label>
+
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#faceapp">Face App</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <img src="/static/images/FLASK.jpg" alt="pipeline" />
+            <div class="container">
+                <span>Python</span>
+                <span>OpenCV</span>
+                <span>Scikit-learn</span>
+                <span>Flask</span>
+                <span>Heroku</span>
+            </div>
+        </section>
+
+        <section id="faceapp">
+            <a href="{{ url_for('faceapp')}}" target="_self">
+                <button class="button buttonX">Try Face App</button>
+            </a>
+        </section>
+
+        <section id="about">
+            <a id="one" href="#"><i class="fab fa-github-square fa-5x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-5x"></i></a>
+            <a href="#"><i class="fab fa-medium fa-5x"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-5x"></i></a>
+        </section>
+    </body>
+</html>
