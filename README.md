@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img src="./images/circle-cropped.png" alt="Logo" width="80" height="80">
+    <img src="./images/circle-cropped.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Face Recognition and Gender Prediction</h3>
@@ -51,6 +51,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 -   [Scikit Learn](https://scikit-learn.org/)
 -   [OpenCV](https://opencv.org/)
 -   [Flask](https://flask.palletsprojects.com/)
+-   [Heroku](https://heroku.com)
 
 ## Getting Started
 
