@@ -1,4 +1,4 @@
-opencv_python==4.4.0.46
+opencv-python==4.4.0.46
 Flask==1.1.2
 Pillow==8.1.0
 gunicorn
