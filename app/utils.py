@@ -1,8 +1,14 @@
+import numpy as np
+import pandas as pd  
+
 from PIL import Image
 
 import pickle
 import cv2
 
+from sklearn.decomposition import PCA
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
 
 harr = cv2.CascadeClassifier('./IPYNB-Notebooks/harrcascade-classifier/haarcascade_frontalface_default.xml')
 mean = pickle.load(open('./IPYNB-Notebooks/models/XMean.pickle', 'rb'))
