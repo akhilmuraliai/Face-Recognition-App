@@ -1,9 +1,11 @@
 <p align="center">
   <a href="#">
-    <img src="./images/circle-cropped.png" alt="Logo" width="100" height="100">
+    <img src="./images/circle-cropped.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">Face Recognition and Gender Prediction</h3>
+  <h3 align="center">
+  <a href="https://face-app-ai.herokuapp.com/">View App</a></h3>
 <br>
 
 <details open="open">
@@ -23,6 +25,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage">Dependencies</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -89,6 +92,26 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 <img src="./images/index-page.png" alt="Sample" width="450" height="250">
 <img src="./images/web-app.png" alt="Sample" width="450" height="250">
+
+## Dependencies
+
+---
+
+In order to run on Heroku,<br>
+The Procfile
+
+```sh
+web: gunicorn main:app
+```
+
+The Aptfile
+
+```sh
+libsm6
+libxrender1
+libfontconfig1
+libice6
+```
 
 ## Contact
 
